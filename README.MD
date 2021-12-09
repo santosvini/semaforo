@@ -4,9 +4,9 @@
 
 <p>
   <ul>
-    <li><Javascript></li>
-    <li><HTML5></li>
-    <li><CSS3></li>
+    <li>``Javascript``</li>
+    <li>``HTML5``</li>
+    <li>``CSS3``</li>
    </ul> 
 
 <img src="./img/semaforo.jpeg">
