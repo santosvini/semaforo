@@ -1,20 +1,11 @@
-const img = document.getElementById('img')
-const colors = ['red', 'yellow', 'green']
-
-function change() {
-  src = "./img/vermelho.png";
-  img.addEventListener('click', colors.red)
-  console.log('red')
+function alteraVerde() {
+  document.getElementById('semaforoverde').src = './img/verde.png'
 }
 
-function change() {
-  src = "./img/amarelo.png"
-  img.addEventListener('click', colors.yellow)
-  console.log('yellow')
+function alteraAmarelo() {
+  document.getElementById('semaforoamarelo').src = './img/amarelo.png'
 }
 
-function change() {
-  src = "./img/verde.png"
-  img.addEventListener('click', colors.green)
-  console.log('green')
+function alteraVermelho() {
+  document.getElementById('semaforovermelho').src = './img/vermelho.png'
 }

@@ -9,9 +9,14 @@
   <title>Semaforo</title>
 </head>
 <body>
-  <div onclick="change()">
-    <img src="./img/apagado.png" alt="Semaforo Apagado" id="img">
-  </div>
+  <img src="./img/apagado.png" alt="Apagado" id="semaforoverde">
+  <img src="./img/apagado.png" alt="Apagado" id="semaforoamarelo">
+  <img src="./img/apagado.png" alt="Apagado" id="semaforovermelho">
+  <form>
+    <input type="button" id="botaoVerde" value="Verde" onclick="alteraVerde()">
+    <input type="button" id="botaoAmarelo" value="Amarelo" onclick="alteraAmarelo()">
+    <input type="button" id="botaoVermelho" value="Vermelho" onclick="alteraVermelho()">
+  </form>
   <script src="semaforo.js"></script>
 </body>
 </html>
