@@ -2,11 +2,8 @@
 
 ## :technologist:Tecnologias Utilizadas
 
-<p>
-  <ul>
-    <li>``Javascript``</li>
-    <li>``HTML5``</li>
-    <li>``CSS3``</li>
-   </ul> 
+- ``Javascript``
+- ``HTML5``
+- ``CSS3``
 
 <img src="./img/semaforo.jpeg">
